@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Random Projects</title>
-  </head>
-  <body>
-    <h1>Here are some Random Projects</h1>
-    <a href="Elvaine/projectMain.html">Elvaine</a>
-  </body>
+    <head>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Time</title>
+    </head>
+    <header>
+
+    </header>
+    <body onload="ClockManager()">
+        <h1 id="Clock">00:00:00</h1>
+        <h1 id="UTC">UTC + 0</h1>
+        
+        <label class="switch">
+            <input type="checkbox" onclick="EnableMilitary()">
+            <span class="slider round"></span>
+        </label>
+        <img src="WorldMap.png" alt="Map of the world" id="invert">
+        <img src="WorldMap.png" alt="Map of the world" id="selectedmap">
+        <div id="#lightup"></div>
+          
+    </body>
 </html>
